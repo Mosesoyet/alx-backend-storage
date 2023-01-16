@@ -1,0 +1,3 @@
+// Script to count item in the database
+
+db.school.count()
