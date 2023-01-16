@@ -1,3 +1,3 @@
 // A script that inserts data to a MongoDB
 
-my_db.school.insertOne({name: "Holberton school"})
+school.insertOne({name: "Holberton school"})
