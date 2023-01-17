@@ -5,8 +5,10 @@ Students module
 
 
 def top_students(mongo_collection):
-    """ students
-    by score"""
+    """ 
+    students
+    by score
+    """
     return mongo_collection.aggregate([
         {
             "$project":
