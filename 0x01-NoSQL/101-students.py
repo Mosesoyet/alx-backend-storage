@@ -1,7 +1,8 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
 Students module
 """
+import pymongo
 
 
 def top_students(mongo_collection):
