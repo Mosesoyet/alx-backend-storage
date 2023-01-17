@@ -2,7 +2,6 @@
 """
 Students module
 """
-import pymongo
 
 
 def top_students(mongo_collection):
