@@ -1,0 +1,3 @@
+// A script that deletes a record
+
+db.school.delete({name: "Holberton school"})
