@@ -47,10 +47,9 @@ class Cache:
         return data
 
 
-    def get_int(self, key: str) -> int:
+    def get_int(self, key: int) -> int:
         """
         Get data as integer from redis
         """
-        data = self.get(key, lambda x: x.decode('utf-8'))
-        data = int(data)
+        data = self.get(key, lambda x: int(x).decode('utf-8'))
         return data
