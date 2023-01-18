@@ -51,4 +51,5 @@ class Cache:
         """
         Get data as integer from redis
         """
-        data = self
+        data = self.get(key, lambda x: x.decode('utf-8'))
+        return data
